@@ -27,6 +27,5 @@ Thumbs.db
 # GitHub rejects files over 100MB. This installer is ~138MB.
 *.deb
 
-# Streamlit app only calls the Render API. These are API training artifacts.
-*.pkl
+# Raw dataset. The API loads df.pkl, not this CSV.
 movies_metadata.csv
