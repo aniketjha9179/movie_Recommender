@@ -1,0 +1,32 @@
+# secrets — never push
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# local environments
+.venv/
+.venv-*/
+venv/
+env/
+
+# python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# editor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# GitHub rejects files over 100MB. This installer is ~138MB.
+*.deb
+
+# Streamlit app only calls the Render API. These are API training artifacts.
+*.pkl
+movies_metadata.csv
