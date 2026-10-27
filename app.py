@@ -8,7 +8,7 @@ import streamlit as st
 # =============================
 # CONFIG
 # =============================
-DEFAULT_API_BASE = "https://movie-rec-466x.onrender.com"
+DEFAULT_API_BASE = "https://movie-recommender-bp4p.onrender.com"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 
 
